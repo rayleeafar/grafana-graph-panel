@@ -257,7 +257,7 @@ function ($, core) {
           seriesHtml += '<div class="graph-tooltip-value">' + value + '</div></div>';
           plot.highlight(hoverInfo.index, hoverInfo.hoverIndex);
         }
-
+        seriesHtml += '<div class="graph-tooltip-value"> Y-axis: ' + pos.y.toFixed(4) + '</div></div>';
         self.renderAndShow(absoluteTime, seriesHtml, pos, xMode);
       }
       // single series tooltip
