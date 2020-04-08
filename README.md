@@ -2,9 +2,13 @@
  [CorpGlory](https://github.com/CorpGlory/grafana-graph-panel)
 
 
-# Graph Panel
+# Screenshots
 
 add crosshair of x-y axis
+
+![Screenshot1](/img/img1.png)
+
+# Graph Panel
 
 Webpack copy of [Grafana default panel](http://docs.grafana.org/features/panels/graph/). 
 Now you can make your plugins based on graph panel and hack it easier.
